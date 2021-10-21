@@ -7,4 +7,15 @@
     android:layout_height="wrap_content"
     tools:context=".WeatherActivity">
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="vn.edu.usth.weather.WeatherFragment"
+        android:id="@+id/weather"></fragment>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="vn.edu.usth.weather.ForecastFragment"
+        android:id="@+id/forecast"></fragment>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
