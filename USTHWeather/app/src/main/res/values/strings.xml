@@ -1,23 +1,23 @@
-<resources>
-    <string name="app_name">USTH Weather</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">USTH Weather</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="weather_fragment">Weather fragment</string>
-    <string name="forecast_fragment">Forecast fragment</string>
-    <string name="monday">Monday</string>
-    <string name="monday_weather">Party Cloudy \n 24C-31C</string>
-    <string name="monday1_weather">Scattered Thunderstorm \n 25C-28C</string>
-    <string name="tuesday">Tuesday</string>
-    <string name="tuesday_weather">Showers \n 24C-30C</string>
-    <string name="tuesday1_weather">Showers \n 24C-26C</string>
-    <string name="wednesday">Wednesday</string>
-    <string name="wednesday_weather">Rain \n 22C-23C</string>
-    <string name="wednesday1_weather">Scattered Thunderstorm \n 23C-27C</string>
-    <string name="thursday">Thursday</string>
-    <string name="thursday_weather">Scattered Showers \n 22C-27C</string>
-    <string name="friday">Friday</string>
-    <string name="friday_weather">Mostly Cloudy \n 22C-30C</string>
-    <string name="saturday">Saturday</string>
-    <string name="saturday_weather">Partly Cloudy \n 24C-31C</string>
-    <string name="sunday">Sunday</string>
-    <string name="sunday_weather">Thunderstorm \n 25C-28C</string>
+    <string name="weather_fragment" tools:ignore="MissingTranslation">Weather fragment</string>
+    <string name="forecast_fragment" tools:ignore="MissingTranslation">Forecast fragment</string>
+    <string name="monday" tools:ignore="MissingTranslation">Monday</string>
+    <string name="monday_weather" tools:ignore="MissingTranslation">Party Cloudy \n 24C-31C</string>
+    <string name="monday1_weather" tools:ignore="MissingTranslation">Scattered Thunderstorm \n 25C-28C</string>
+    <string name="tuesday" tools:ignore="MissingTranslation">Tuesday</string>
+    <string name="tuesday_weather" tools:ignore="MissingTranslation">Showers \n 24C-30C</string>
+    <string name="tuesday1_weather" tools:ignore="MissingTranslation">Showers \n 24C-26C</string>
+    <string name="wednesday" tools:ignore="MissingTranslation">Wednesday</string>
+    <string name="wednesday_weather" tools:ignore="MissingTranslation">Rain \n 22C-23C</string>
+    <string name="wednesday1_weather" tools:ignore="MissingTranslation">Scattered Thunderstorm \n 23C-27C</string>
+    <string name="thursday" tools:ignore="MissingTranslation">Thursday</string>
+    <string name="thursday_weather" tools:ignore="MissingTranslation">Scattered Showers \n 22C-27C</string>
+    <string name="friday" tools:ignore="MissingTranslation">Friday</string>
+    <string name="friday_weather" tools:ignore="MissingTranslation">Mostly Cloudy \n 22C-30C</string>
+    <string name="saturday" tools:ignore="MissingTranslation">Saturday</string>
+    <string name="saturday_weather" tools:ignore="MissingTranslation">Partly Cloudy \n 24C-31C</string>
+    <string name="sunday" tools:ignore="MissingTranslation">Sunday</string>
+    <string name="sunday_weather" tools:ignore="MissingTranslation">Thunderstorm \n 25C-28C</string>
 </resources>
