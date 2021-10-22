@@ -2,18 +2,30 @@ package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.util.Log;
 
-public class WeatherActivity extends AppCompatActivity {
+import com.google.android.material.tabs.TabLayout;
 
+public class WeatherActivity extends AppCompatActivity {
+    private TabLayout mTabLayout;
+    private ViewPager mViewPager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         ForecastFragment ff= ForecastFragment.newInstance("", "");
         getSupportFragmentManager().beginTransaction().add(R.id.container, ff).commit();
+        mTabLayout = findViewById(R.id.tab_layout);
+        mViewPager = findViewById(R.id.view_pager);
+
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        mViewPager.setAdapter(viewPagerAdapter);
+        mTabLayout.setupWithViewPager(mViewPager);
     }
     @Override
     protected void onStart() {
