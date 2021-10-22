@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Thời tiết USTH</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="weather_fragment">fragment thời tiết</string>
+    <string name="forecast_fragment">fragment dự báo</string>
+    <string name="monday">Thứ 2</string>
+    <string name="monday_weather">Trời có mây \n 24C-31C</string>
+    <string name="monday1_weather">Giông tố rải rác \n 25C-28C</string>
+    <string name="tuesday">Thứ 3</string>
+    <string name="tuesday_weather">Mưa rào \n 24C-30C</string>
+    <string name="tuesday1_weather">Mưa rào \n 24C-26C</string>
+    <string name="wednesday">Thứ 4</string>
+    <string name="wednesday_weather">Mưa \n 22C-23C</string>
+    <string name="wednesday1_weather">Giông tố rải rác \n 23C-27C</string>
+    <string name="thursday">Thứ 5</string>
+    <string name="thursday_weather">Mưa rào rải rác \n 22C-27C</string>
+    <string name="friday">Thứ 6</string>
+    <string name="friday_weather">Trời nhiều mây \n 22C-30C</string>
+    <string name="saturday">Thứ 7</string>
+    <string name="saturday_weather">Trời có mây \n 24C-31C</string>
+    <string name="sunday">Chủ nhật</string>
+    <string name="sunday_weather">Sấm chớp \n 25C-28C</string>
+</resources>
